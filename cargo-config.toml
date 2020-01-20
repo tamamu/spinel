@@ -1,0 +1,11 @@
+[target.aarch64-linux-android]
+ar = "$SPINEL_NDK_TOOLCHAIN/bin/aarch64-linux-android-ar"
+linker = "$SPINEL_NDK_TOOLCHAIN/bin/aarch64-linux-android29-clang"
+
+[target.armv7-linux-androideabi]
+ar = "$SPINEL_NDK_TOOLCHAIN/bin/arm-linux-androideabi-ar"
+linker = "$SPINEL_NDK_TOOLCHAIN/bin/armv7a-linux-androideabi29-clang"
+
+[target.i686-linux-android]
+ar = "$SPINEL_NDK_TOOLCHAIN/bin/i686-linux-android-ar"
+linker = "$SPINEL_NDK_TOOLCHAIN/bin/i686-linux-android29-clang"
